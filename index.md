@@ -4,9 +4,9 @@
 
 # 領域実習A(2024年度)
 
-[YOLOv8マニュアル](YOLOv8.pdf)
+[YOLOv8マニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLOv8.html)
 
-[GitHubマニュアル](GitHub.pdf)
+[GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
 ## 課題1(ex1.py)
 
