@@ -21,6 +21,16 @@
 4. 画像上のキーポイントの位置に丸を描く．
 5. 画像上のボーン（骨）の位置に直線を描く．
 
+## 課題1(ex2.py)
+
+[ex1.jpg](images/ex1.jpg)と以下の5つの画像において，人物の姿勢が近いもの順にファイル名を表示せよ．
+
+* [ex2_307.jpg](images/ex2_307.jpg)
+* [ex2_336.jpg](images/ex2_336.jpg)
+* [ex2_2015.jpg](images/ex2_2015.jpg)
+* [ex2_3077.jpg](images/ex2_3077.jpg)
+* [ex2_5175.jpg](images/ex2_5175.jpg)
+
 <!--
 ## 課題1(ex1.py)
 
