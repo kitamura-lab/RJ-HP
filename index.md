@@ -31,6 +31,11 @@
 * [ex2_3077.jpg](images/ex2_3077.jpg)
 * [ex2_5175.jpg](images/ex2_5175.jpg)
 
+## 課題3(ex3.py)
+
+[ex3a.mp4](images/ex3a.mp4)の中で，[ex1.jpg](images/ex1.jpg)に近いフレームにおいて，骨格画像を赤色で描画せよ．実行例を[ex3_sample.mp4](images/ex3_sample.mp4)に示す．赤色以外の骨格は必ずしも描画する必要はない．
+
+
 <!--
 ## 課題1(ex1.py)
 
