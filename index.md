@@ -35,6 +35,11 @@
 
 [ex3a.mp4](images/ex3a.mp4)の中で，[ex1.jpg](images/ex1.jpg)に近いフレームにおいて，骨格画像を赤色で描画せよ．実行例を[ex3_sample.mp4](images/ex3_sample.mp4)に示す．赤色以外の骨格は必ずしも描画する必要はない．
 
+## 課題4(ex4.py)
+
+[ex4.jpg](images/ex4.jpg)中の人物を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．
+
+![](images/ex4_ans.jpg)
 
 <!--
 ## 課題1(ex1.py)
