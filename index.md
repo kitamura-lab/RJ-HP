@@ -4,6 +4,8 @@
 
 # 領域実習B(2024年度)
 
+[200字作文の書き方](200字作文.html)
+
 [YOLOv8マニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLOv8.html)
 
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
