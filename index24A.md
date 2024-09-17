@@ -2,13 +2,13 @@
 
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
-# 領域実習B(2024年度)
+# 領域実習A(2024年度)
 
 [YOLOv8マニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLOv8.html)
 
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
-<!-- ## 課題1(ex1.py)
+## 課題1(ex1.py)
 
 [ex1.jpg](images/ex1.jpg)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．
 
@@ -43,7 +43,7 @@
 
 ## 課題5(ex5.py)
 
-[ex5.mp4](images/ex5.mp4)の中で，人物を抽出し，その領域を赤枠で元の動画に描画せよ． -->
+[ex5.mp4](images/ex5.mp4)の中で，人物を抽出し，その領域を赤枠で元の動画に描画せよ．
 
 <!--
 ## 課題1(ex1.py)
