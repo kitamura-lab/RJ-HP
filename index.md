@@ -6,11 +6,13 @@
 
 [200字作文の書き方](200字作文.html)
 
-[研究室資料](https://cs.kwansei.ac.jp/~kitamura/KB/index.html)
+[研究ハンドブック](https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html)
 
-<!-- [YOLOv8マニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLOv8.html)
+[OpenCVマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/OpenCV.html)
 
-[GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html) -->
+[YOLOv8マニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLOv8.html)
+
+[GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
 ## 課題1(ex1.py)
 
