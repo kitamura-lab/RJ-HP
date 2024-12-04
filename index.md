@@ -17,29 +17,21 @@
 
 ## GitHub
 
-関本
-https://github.com/Ryotaro1/test
+[関本](https://github.com/Ryotaro1/test)
 
-中田
-https://github.com/0masa9/gitaddremote
+[中田](https://github.com/0masa9/gitaddremote)
 
-長峯
-https://github.com/Takumi06140614/kitamura2
+[長峯](https://github.com/Takumi06140614/kitamura2)
 
-岡部
-https://github.com/Okabe522/Test
+[岡部](https://github.com/Okabe522/Test)
 
-小林
-https://github.com/riki0121/kobayashi
+[小林](https://github.com/riki0121/kobayashi)
 
-野沢
-https://github.com/nozawahiroto/RyouikiB
+[野沢](https://github.com/nozawahiroto/RyouikiB)
 
-村井
-https://github.com/AtsukiMurai/Test
+[村井](https://github.com/AtsukiMurai/Test)
 
-島谷
-https://github.com/shimatanikeito/Test
+[島谷](https://github.com/shimatanikeito/Test)
 
 
 ## 課題1(ex1.py)
