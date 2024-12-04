@@ -37,7 +37,7 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の重心点�
 
 ![](images/ex2_ans.jpg)
 
-## 課題A(ex2A.py)
+## 課題2A(ex2A.py)
 
 課題2で抽出した領域のうち，面積最大のもののみを赤枠で元の画像に描画せよ．
 
