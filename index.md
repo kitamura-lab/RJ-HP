@@ -14,6 +14,34 @@
 
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
+
+## GitHub
+
+関本
+https://github.com/Ryotaro1/test
+
+中田
+https://github.com/0masa9/gitaddremote
+
+長峯
+https://github.com/Takumi06140614/kitamura2
+
+岡部
+https://github.com/Okabe522/Test
+
+小林
+https://github.com/riki0121/kobayashi
+
+野沢
+https://github.com/nozawahiroto/RyouikiB
+
+村井
+https://github.com/AtsukiMurai/Test
+
+島谷
+https://github.com/shimatanikeito/Test
+
+
 ## 課題1(ex1.py)
 
 [ex1.jpg](images/ex1.jpg)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．
