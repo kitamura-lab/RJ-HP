@@ -66,9 +66,9 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の重心点�
 
 [ex3b.mp4](images/ex3b.mp4)の各フレームにおいて，骨格を抽出し，ボーンを青色で動画に描画せよ．なお，Right-elbow, Right-shoulder, Right-hipの角度を求め，それが80度から100度の範囲内の場合は右腕の骨格のみ，赤色で描画せよ．
 
-<!-- ## 課題4(ex4.py)
+## 課題4(ex4.py)
 
-[ex3b.mp4](images/ex3b.mp4)の各フレームにおいて，[ex1.jpg](images/ex1.jpg)を探し出し，そのフレーム番号を求めよ． -->
+[ex3b.mp4](images/ex3b.mp4)の各フレームにおいて，[ex1.jpg](images/ex1.jpg)を探し出し，そのフレーム番号を求めよ．
 
 <!-- ## 課題5(ex5.py)
 
