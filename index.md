@@ -15,9 +15,9 @@
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
 
-## GitHub
+<!-- ## GitHub
 
-<!-- [関本](https://github.com/Ryotaro1/test)
+[関本](https://github.com/Ryotaro1/test)
 
 [中田](https://github.com/0masa9/gitaddremote)
 
