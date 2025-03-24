@@ -10,7 +10,7 @@
 
 [OpenCVマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/OpenCV.html)
 
-[YOLOv8マニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLOv8.html)
+[YOLOマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLO.html)
 
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
