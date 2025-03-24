@@ -2,7 +2,7 @@
 
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
-# 領域実習A(2025年度)
+# 領域実習B(2024年度)
 
 [200字作文の書き方](200字作文.html)
 
@@ -17,7 +17,7 @@
 
 ## GitHub
 
-<!-- [関本](https://github.com/Ryotaro1/test)
+[関本](https://github.com/Ryotaro1/test)
 
 [中田](https://github.com/0masa9/gitaddremote)
 
@@ -31,10 +31,10 @@
 
 [村井](https://github.com/AtsukiMurai/Test)
 
-[島谷](https://github.com/shimatanikeito/Test) -->
+[島谷](https://github.com/shimatanikeito/Test)
 
 
-<!-- ## 課題1(ex1.py)
+## 課題1(ex1.py)
 
 [ex1.jpg](images/ex1.jpg)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．
 
@@ -72,7 +72,7 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の重心点�
 
 ## 課題5(ex5.py)
 
-[ex2.jpg](images/ex2.jpg)中の人物(person)を抽出し，日本代表選手（青色ジャージ）の領域のみを赤枠で元の画像に描画せよ． -->
+[ex2.jpg](images/ex2.jpg)中の人物(person)を抽出し，日本代表選手（青色ジャージ）の領域のみを赤枠で元の画像に描画せよ．
 
 <!-- ## 課題2(ex2.py)
 
