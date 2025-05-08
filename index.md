@@ -34,7 +34,7 @@
 [島谷](https://github.com/shimatanikeito/Test) -->
 
 
-<!-- ## 課題1(ex1.py)
+## 課題1(ex1.py)
 
 [ex1.jpg](images/ex1.jpg)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．
 
@@ -47,7 +47,7 @@
 4. 画像上のキーポイントの位置に丸を描く．
 5. 画像上のボーン（骨）の位置に直線を描く．
 
-## 課題1A(ex1A.py)
+<!-- ## 課題1A(ex1A.py)
 
 Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の重心点を求め，ex1で求めた画像上に描画せよ．
 
