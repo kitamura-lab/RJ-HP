@@ -8,9 +8,9 @@
 
 [研究ハンドブック](https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html)
 
-[OpenCVマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/OpenCV.html)
-
 [YOLOマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLO.html)
+
+[OpenCVマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/OpenCV.html)
 
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
