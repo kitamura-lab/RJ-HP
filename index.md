@@ -47,11 +47,11 @@
 4. 画像上のキーポイントの位置に丸を描く．
 5. 画像上のボーン（骨）の位置に直線を描く．
 
-<!-- ## 課題1A(ex1A.py)
+## 課題2(ex2.py)
 
 Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の重心点を求め，ex1で求めた画像上に描画せよ．
 
-## 課題2(ex2.py)
+<!-- ## 課題2(ex2.py)
 
 [ex2.jpg](images/ex2.jpg)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．
 
