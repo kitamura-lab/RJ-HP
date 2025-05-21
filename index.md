@@ -49,7 +49,7 @@
 
 ## 課題2(ex2.py)
 
-Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の重心点を求め，ex1で求めた画像上に描画せよ．
+Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値を求め，ex1で求めた画像上に描画せよ．
 
 <!-- ## 課題2(ex2.py)
 
