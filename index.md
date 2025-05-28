@@ -51,13 +51,13 @@
 
 Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値を求め，ex1で求めた画像上に描画せよ．
 
-<!-- ## 課題2(ex2.py)
+## 課題3(ex3.py)
 
 [ex2.jpg](images/ex2.jpg)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．
 
 ![](images/ex2_ans.jpg)
 
-## 課題2A(ex2A.py)
+<!-- ## 課題2A(ex2A.py)
 
 課題2で抽出した領域のうち，面積最大のもののみを赤枠で元の画像に描画せよ．
 
