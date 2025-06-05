@@ -63,6 +63,11 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値�
 
 学習モデル[othello.pt](othello.pt)を用いて，[ex4.jpg](images/ex4.jpg)中の白と黒の石を認識し，それぞれの石の数を数えよ．
 
+## 課題8(ex8.py)
+
+[オセロ画像](othello_images.zip)を用いて，オセロの石を認識できる学習モデルを生成せよ．それを用いて，[ex4.jpg](images/ex4.jpg)中の白と黒の石を認識し，それぞれの石の数を数えよ．
+
+
 ***
 <address>
 <script>
