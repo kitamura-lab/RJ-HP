@@ -61,7 +61,7 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値�
 
 ## 課題7(ex7.py)
 
-物体検出モデル[othello.pt](othello.pt)を用いて，[ex4.jpg](images/ex4.jpg)中の白と黒の石を認識し，それぞれの石の数を数えよ．
+物体検出モデル[othello.pt](othello.pt)を用いて，[ex4.jpg](images/ex4.jpg)中の白と黒の石を認識し，それぞれの石の数を数えよ．なお，othello.ptは`{0: 'white', 1: 'black'}`のように白と黒の石を区別することができる．
 
 ## 課題8(ex8.py)
 
