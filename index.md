@@ -69,7 +69,7 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値�
 
 ## 課題9(ex9.py)
 
-[サッカー動画](images/ex9.mp4)から生成した物体検出モデルを用いて，[ex3.jpg](images/ex3.jpg)中の人物(person)を抽出し，GKと審判を除いた選手の領域をチームごとに枠の色を変えて，元の画像に描画せよ．画像は見やすくなるように，適当なサイズにすること．
+[サッカー動画](images/ex9.mp4)から生成した物体検出モデル(soccer.pt)を用いて，[ex3.jpg](images/ex3.jpg)中の人物(person)を抽出し，GKと審判を除いた選手の領域をチームごとに枠の色を変えて，元の画像に描画せよ．画像は見やすくなるように，適当なサイズにすること．この課題提出の際には.gitignoreから*.ptの行を削除すること．
 
 
 
