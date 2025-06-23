@@ -67,6 +67,11 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値�
 
 [オセロ画像](othello_images.zip)を用いて，オセロの石を認識できる物体検出モデルを生成せよ．それを用いて，[ex4.jpg](images/ex4.jpg)中の白と黒の石を認識し，それぞれの石の数を数えよ．
 
+## 課題9(ex9.py)
+
+[サッカー動画](images/ex9.mp4)から生成した物体検出モデルを用いて，[ex3.jpg](images/ex3.jpg)中の人物(person)を抽出し，GKと審判を除いた選手の領域をチームごとに枠の色を変えて，元の画像に描画せよ．画像は見やすくなるように，適当なサイズにすること．
+
+
 
 ***
 <address>
