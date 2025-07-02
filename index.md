@@ -65,7 +65,7 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値�
 
 ## 課題8(ex8.py)
 
-[オセロ画像](othello_images.zip)を用いて，オセロの石を認識できる物体検出モデルを生成せよ．それを用いて，[ex4.jpg](images/ex4.jpg)中の白と黒の石を認識し，それぞれの石の数を数えよ．
+[オセロ画像](othello_images.zip)を用いて，オセロの石を認識できる物体検出モデルを生成せよ．それを用いて，[ex4.jpg](images/ex4.jpg)中の白と黒の石を認識し，それぞれの石の数を数えよ．この課題提出の際には.gitignoreにおいて，\*.ptの行をyolo\*.ptに修正すること．
 
 注意：labelImgでアノテーションする場合には**YOLO**形式で保存すること．
 
