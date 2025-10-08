@@ -14,7 +14,7 @@
 
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
-[2025年度領域実習A](https://cs.kwansei.ac.jp/~kitamura/lecture/RyoikiJisshu/index25A.html)
+[領域実習A(2025年度)](https://cs.kwansei.ac.jp/~kitamura/lecture/RyoikiJisshu/index25A.html)
 
 <!-- ## 課題1(ex1.py)
 
