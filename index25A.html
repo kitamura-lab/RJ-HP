@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index25A.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<link rel="stylesheet" href="/~kitamura/md_preview1.css" type="text/css">
+<p><a href="https://cs.kwansei.ac.jp/~kitamura/index.html">トップ</a> &gt; <a href="https://cs.kwansei.ac.jp/~kitamura/courses.html">講義</a> &gt; 領域実習</p>
+<h1 id="%E9%A0%98%E5%9F%9F%E5%AE%9F%E7%BF%92a2025%E5%B9%B4%E5%BA%A6">領域実習A(2025年度)</h1>
+<p><a href="200%E5%AD%97%E4%BD%9C%E6%96%87.html">200字作文の書き方</a></p>
+<p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html">研究ハンドブック</a></p>
+<p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/YOLO.html">YOLOマニュアル</a></p>
+<p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/OpenCV.html">OpenCVマニュアル</a></p>
+<p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html">GitHubマニュアル</a></p>
+<h2 id="%E8%AA%B2%E9%A1%8C1ex1py">課題1(ex1.py)</h2>
+<p><a href="images/ex1.jpg">ex1.jpg</a>中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．</p>
+<p><img src="images/ex1-result.png" alt=""></p>
+<p>手順：</p>
+<ol>
+<li>ex1.jpgの画像をPythonを使って表示する．</li>
+<li>画像に何かを描画する．</li>
+<li>YOLOv8を使って，キーポイント（関節）の座標を取り出す．</li>
+<li>画像上のキーポイントの位置に丸を描く．</li>
+<li>画像上のボーン（骨）の位置に直線を描く．</li>
+</ol>
+<h2 id="%E8%AA%B2%E9%A1%8C2ex2py">課題2(ex2.py)</h2>
+<p>Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値を求め，ex1で求めた画像上に描画せよ．</p>
+<h2 id="%E8%AA%B2%E9%A1%8C3ex3py">課題3(ex3.py)</h2>
+<p><a href="images/ex2.jpg">ex2.jpg</a>中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．</p>
+<p><img src="images/ex2_ans.jpg" alt=""></p>
+<h2 id="%E8%AA%B2%E9%A1%8C4ex4py">課題4(ex4.py)</h2>
+<p>課題3で抽出した領域のうち，面積最大のもののみを赤枠で元の画像に描画せよ．</p>
+<!-- ## 課題3(ex3.py)
+
+[ex3b.mp4](images/ex3b.mp4)の各フレームにおいて，骨格を抽出し，ボーンを青色で動画に描画せよ．なお，Right-elbow, Right-shoulder, Right-hipの角度を求め，それが80度から100度の範囲内の場合は右腕の骨格のみ，赤色で描画せよ．
+
+## 課題4(ex4.py)
+
+[ex3b.mp4](images/ex3b.mp4)の各フレームにおいて，[ex1.jpg](images/ex1.jpg)を探し出し，そのフレーム番号を求めよ． -->
+<h2 id="%E8%AA%B2%E9%A1%8C5ex5py">課題5(ex5.py)</h2>
+<p><a href="images/ex2.jpg">ex2.jpg</a>中の人物(person)を抽出し，日本代表選手（青色ジャージ）の領域のみを赤枠で元の画像に描画せよ．</p>
+<h2 id="%E8%AA%B2%E9%A1%8C6ex6py">課題6(ex6.py)</h2>
+<p><a href="images/ex3.jpg">ex3.jpg</a>中の人物(person)を抽出し，審判とGKを除いた選手の領域をチームごとに枠の色を変えて，元の画像に描画せよ．画像は見やすくなるように，適当なサイズにすること．</p>
+<h2 id="%E8%AA%B2%E9%A1%8C7ex7py">課題7(ex7.py)</h2>
+<p>物体検出モデル<a href="othello.pt">othello.pt</a>を用いて，<a href="images/ex4.jpg">ex4.jpg</a>中の白と黒の石を認識し，それぞれの石の数を数えよ．なお，othello.ptは<code>{0: 'white', 1: 'black'}</code>のように白と黒の石を区別することができる．</p>
+<h2 id="%E8%AA%B2%E9%A1%8C8ex8py">課題8(ex8.py)</h2>
+<p><a href="othello_images.zip">オセロ画像</a>を用いて，オセロの石を認識できる物体検出モデルを生成せよ．それを用いて，<a href="images/ex4.jpg">ex4.jpg</a>中の白と黒の石を認識し，それぞれの石の数を数えよ．この課題提出の際には.gitignoreにおいて，*.ptの行をyolo*.ptに修正すること．</p>
+<p>注意：labelImgでアノテーションする場合には<strong>YOLO</strong>形式で保存すること．</p>
+<h2 id="%E8%AA%B2%E9%A1%8C9ex9py">課題9(ex9.py)</h2>
+<p><a href="images/ex9.mp4">サッカー動画</a>から生成した物体検出モデル(soccer.pt)を用いて，<a href="images/ex3.jpg">ex3.jpg</a>中の人物(person)を抽出し，GKと審判を除いた選手の領域をチームごとに枠の色を変えて，元の画像に描画せよ．画像は見やすくなるように，適当なサイズにすること．この課題提出の際には.gitignoreにおいて，*.ptの行をyolo*.ptに修正すること．</p>
+<hr>
+<address>
+<script>
+document.write("Last updated: " + document.lastModified);
+</script> <br>
+ykitamura@kwansei.ac.jp </address>
+</body>
+</html>
