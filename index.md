@@ -37,6 +37,10 @@
 1. ex2.mp4の動画をPythonを使って表示する．
 2. 動画中の各フレームに対して，課題1の方法を用いてキーポイントとボーンを描画する．
 
+出力例：
+
+<video src="images/ex2_out.mp4" controls="true" width="600"></video>
+
 ## 課題3
 
 ### 課題3a(ex3a.py)
