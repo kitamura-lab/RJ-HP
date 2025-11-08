@@ -20,7 +20,7 @@
 
 [ex1.jpg](images/ex1.jpg)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．
 
-![](images/ex1-result.png)
+<img src="images/ex1-result.png" width="600">
 
 手順：
 1. ex1.jpgの画像をPythonを使って表示する．
@@ -43,7 +43,33 @@
 
 [ex3a.mp4](images/ex3a.mp4)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを描画せよ．
 
-<video src="images/ex3a_skeleton.mp4" controls="true"></video>
+出力例：
+
+<video src="images/ex3a_skeleton.mp4" controls="true" width="600"></video>
+
+### 課題3b(ex3b.py)
+
+[ex3b.mp4](images/ex3b.mp4)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを課題3aの骨格とともに描画せよ．
+
+出力例：
+
+<video src="images/ex3b_skeleton.mp4" controls="true" width="600"></video>
+
+### 課題3c(ex3c.py)
+
+課題3bで描画した骨格の腰の位置を揃えて描画せよ．
+
+出力例：
+
+<video src="images/ex3c_skeleton.mp4" controls="true" width="300"></video>
+
+### 課題3d(ex3d.py)
+
+[DTW](https://qiita.com/skm_bnn/items/8060882a65f3980e6300)を用い，課題3cで描画した骨格が類似するように描画時間を揃えて描画せよ．
+
+出力例：
+
+<video src="images/ex3d_skeleton.mp4" controls="true" width="300"></video>
 
 <!-- ## 課題2(ex2.py)
 
