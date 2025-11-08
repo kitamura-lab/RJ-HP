@@ -37,6 +37,14 @@
 1. ex2.mp4の動画をPythonを使って表示する．
 2. 動画中の各フレームに対して，課題1の方法を用いてキーポイントとボーンを描画する．
 
+## 課題3
+
+### 課題3a(ex3a.py)
+
+[ex3a.mp4](images/ex3a.mp4)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを描画せよ．
+
+<video src="images/ex3a_skeleton.mp4" controls="true"></video>
+
 <!-- ## 課題2(ex2.py)
 
 Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値を求め，ex1で求めた画像上に描画せよ．
