@@ -91,6 +91,12 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値�
 
 <video src="images/ex5_out.mp4" controls="true" width="600"></video>
 
+## 課題6(ex6.py)
+
+[ex4-25.jpg](images/ex4-25.jpg)を俯瞰画像に射影変換せよ．実行例を以下に示す．参考：[サッカーコートの図面](images/soccer_field.png)．
+
+<img src="images/ex6_out.jpg" width="600">
+
 <!-- ## 課題4(ex4.py)
 
 課題3で抽出した領域のうち，面積最大のもののみを赤枠で元の画像に描画せよ． -->
