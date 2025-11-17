@@ -77,16 +77,21 @@
 
 <!-- ## 課題2(ex2.py)
 
-Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値を求め，ex1で求めた画像上に描画せよ．
-
-## 課題3(ex3.py)
-
-[ex2.jpg](images/ex2.jpg)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．
-
-![](images/ex2_ans.jpg)
-
+Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値を求め，ex1で求めた画像上に描画せよ． -->
 
 ## 課題4(ex4.py)
+
+[ex4-25.jpg](images/ex4-25.jpg)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．
+
+<img src="images/ex4_ans.jpg" width="600">
+
+## 課題5(ex5.py)
+
+[ex5.mp4](images/ex5.mp4)中の人物(person)を抽出し，その領域を赤枠で元の動画に描画せよ．実行例を以下に示す．
+
+<video src="images/ex5_out.mp4" controls="true" width="600"></video>
+
+<!-- ## 課題4(ex4.py)
 
 課題3で抽出した領域のうち，面積最大のもののみを赤枠で元の画像に描画せよ． -->
 
