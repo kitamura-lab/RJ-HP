@@ -95,7 +95,7 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値�
 
 ## 課題6a(ex6a.py)
 
-[ex4-25.jpg](images/ex4-25.jpg)を俯瞰画像に射影変換（参考：[研究ハンドブック](https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html)）せよ．実行例を以下に示す．参考：[サッカーコート画像](images/soccer_field.png)．
+[ex4-25.jpg](images/ex4-25.jpg)を俯瞰画像に射影変換（参考：[研究ハンドブック](https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html)）せよ．実行例を以下に示す．参考：[サッカーコート画像](images/soccer_field.png)．射影変換に用いる4点は適当に選択してよい．
 
 <img src="images/ex6_out.jpg" width="600">
 
