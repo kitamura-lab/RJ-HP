@@ -101,7 +101,7 @@ Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値�
 
 ## 課題6b(ex6b.py)
 
-[ex4-25.jpg](images/ex4-25.jpg)からサッカーコート内の人物(person)を抽出し，射影変換を用いてその位置を[サッカーコート画像](images/soccer_field.png)に描画せよ．実行例を以下に示す．
+[ex4-25.jpg](images/ex4-25.jpg)からサッカーコート内の人物(person)を抽出し，射影変換を用いてその位置を[サッカーコート画像](images/soccer_field.png)に描画せよ．実行例を以下に示す．射影変換に用いる4点は適当に選択してよい．
 
 <img src="images/ex6b_out.jpg" width="600">
 
