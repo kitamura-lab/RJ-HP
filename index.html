@@ -367,66 +367,96 @@ code {
   </script>
 <link rel="stylesheet" href="/~kitamura/md_preview1.css" type="text/css">
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/index.html">トップ</a> &gt; <a href="https://cs.kwansei.ac.jp/~kitamura/courses.html">講義</a> &gt; 領域実習</p>
-<h1 id="%E9%A0%98%E5%9F%9F%E5%AE%9F%E7%BF%92b2025%E5%B9%B4%E5%BA%A6">領域実習B(2025年度)</h1>
+<h1 id="%E9%A0%98%E5%9F%9F%E5%AE%9F%E7%BF%92a2026%E5%B9%B4%E5%BA%A6">領域実習A(2026年度)</h1>
 <p><a href="200%E5%AD%97%E4%BD%9C%E6%96%87.html">200字作文の書き方</a></p>
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html">研究ハンドブック</a></p>
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/YOLO.html">YOLOマニュアル</a></p>
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/OpenCV.html">OpenCVマニュアル</a></p>
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html">GitHubマニュアル</a></p>
-<p><a href="https://cs.kwansei.ac.jp/~kitamura/lecture/RyoikiJisshu/index25A.html">領域実習A(2025年度)</a></p>
+<!-- [領域実習A(2025年度)](https://cs.kwansei.ac.jp/~kitamura/lecture/RyoikiJisshu/index25A.html) -->
 <hr>
-<h2 id="%E8%AA%B2%E9%A1%8C1ex1py">課題1(ex1.py)</h2>
-<p><a href="images/ex1.jpg">ex1.jpg</a>中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．</p>
-<img src="images/ex1-result.png" width="600">
-<p>手順：</p>
-<ol>
-<li>ex1.jpgの画像をPythonを使って表示する．</li>
-<li>画像に何かを描画する．</li>
-<li>YOLOv8を使って，キーポイント（関節）の座標を取り出す．</li>
-<li>画像上のキーポイントの位置に丸を描く．</li>
-<li>画像上のボーン（骨）の位置に直線を描く．</li>
-</ol>
-<h2 id="%E8%AA%B2%E9%A1%8C2ex2py">課題2(ex2.py)</h2>
-<p><a href="images/ex2.mp4">ex2.mp4</a>中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の動画に描画せよ．</p>
-<p>手順：</p>
-<ol>
-<li>ex2.mp4の動画をPythonを使って表示する．</li>
-<li>動画中の各フレームに対して，課題1の方法を用いてキーポイントとボーンを描画する．</li>
-</ol>
-<p>出力例：</p>
-<p><video src="images/ex2_out.mp4" controls="true" width="600"></video></p>
-<h2 id="%E8%AA%B2%E9%A1%8C3">課題3</h2>
-<h3 id="%E8%AA%B2%E9%A1%8C3aex3apy">課題3a(ex3a.py)</h3>
-<p><a href="images/ex3a.mp4">ex3a.mp4</a>中の人物の骨格を抽出し，顔以外のキーポイントとボーンを描画せよ．</p>
-<p>出力例：</p>
-<p><video src="images/ex3a_skeleton.mp4" controls="true" width="600"></video></p>
-<h3 id="%E8%AA%B2%E9%A1%8C3bex3bpy">課題3b(ex3b.py)</h3>
-<p><a href="images/ex3b.mp4">ex3b.mp4</a>中の人物の骨格を抽出し，顔以外のキーポイントとボーンを課題3aの骨格とともに描画せよ．</p>
-<p>出力例：</p>
-<p><video src="images/ex3b_skeleton.mp4" controls="true" width="600"></video></p>
-<h3 id="%E8%AA%B2%E9%A1%8C3cex3cpy">課題3c(ex3c.py)</h3>
-<p>課題3bで描画した骨格の腰の位置を揃えて描画せよ．２つの骨格は異なる色で描画すること．</p>
-<p>出力例：</p>
-<p><video src="images/ex3c_skeleton.mp4" controls="true" width="300"></video></p>
-<h3 id="%E8%AA%B2%E9%A1%8C3dex3dpy">課題3d(ex3d.py)</h3>
-<p><a href="https://qiita.com/skm_bnn/items/8060882a65f3980e6300">DTW</a>を用い，課題3cで描画した骨格が類似するように描画時間を揃えて描画せよ．</p>
-<p>出力例：</p>
-<p><video src="images/ex3d_skeleton.mp4" controls="true" width="300"></video></p>
-<!-- ## 課題2(ex2.py)
+<!-- ## 課題1(ex1.py)
 
-Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値を求め，ex1で求めた画像上に描画せよ． -->
-<h2 id="%E8%AA%B2%E9%A1%8C4ex4py">課題4(ex4.py)</h2>
-<p><a href="images/ex4-25.jpg">ex4-25.jpg</a>中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．</p>
+[ex1.jpg](images/ex1.jpg)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．
+
+<img src="images/ex1-result.png" width="600">
+
+手順：
+1. ex1.jpgの画像をPythonを使って表示する．
+2. 画像に何かを描画する．
+3. YOLOv8を使って，キーポイント（関節）の座標を取り出す．
+4. 画像上のキーポイントの位置に丸を描く．
+5. 画像上のボーン（骨）の位置に直線を描く．
+
+## 課題2(ex2.py)
+
+[ex2.mp4](images/ex2.mp4)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の動画に描画せよ．
+
+手順：
+1. ex2.mp4の動画をPythonを使って表示する．
+2. 動画中の各フレームに対して，課題1の方法を用いてキーポイントとボーンを描画する．
+
+出力例：
+
+<video src="images/ex2_out.mp4" controls="true" width="600"></video>
+
+## 課題3
+
+### 課題3a(ex3a.py)
+
+[ex3a.mp4](images/ex3a.mp4)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを描画せよ．
+
+出力例：
+
+<video src="images/ex3a_skeleton.mp4" controls="true" width="600"></video>
+
+### 課題3b(ex3b.py)
+
+[ex3b.mp4](images/ex3b.mp4)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを課題3aの骨格とともに描画せよ．
+
+出力例：
+
+<video src="images/ex3b_skeleton.mp4" controls="true" width="600"></video>
+
+### 課題3c(ex3c.py)
+
+課題3bで描画した骨格の腰の位置を揃えて描画せよ．２つの骨格は異なる色で描画すること．
+
+出力例：
+
+<video src="images/ex3c_skeleton.mp4" controls="true" width="300"></video>
+
+### 課題3d(ex3d.py)
+
+[DTW](https://qiita.com/skm_bnn/items/8060882a65f3980e6300)を用い，課題3cで描画した骨格が類似するように描画時間を揃えて描画せよ．
+
+出力例：
+
+<video src="images/ex3d_skeleton.mp4" controls="true" width="300"></video>
+
+## 課題4(ex4.py)
+
+[ex4-25.jpg](images/ex4-25.jpg)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．
+
 <img src="images/ex4_ans.jpg" width="600">
-<h2 id="%E8%AA%B2%E9%A1%8C5ex5py">課題5(ex5.py)</h2>
-<p><a href="images/ex5.mp4">ex5.mp4</a>中の人物(person)を抽出し，その領域を赤枠で元の動画に描画せよ．実行例を以下に示す．</p>
-<p><video src="images/ex5_out.mp4" controls="true" width="600"></video></p>
-<h2 id="%E8%AA%B2%E9%A1%8C6aex6apy">課題6a(ex6a.py)</h2>
-<p><a href="images/ex4-25.jpg">ex4-25.jpg</a>を俯瞰画像に射影変換（参考：<a href="https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html">研究ハンドブック</a>）せよ．実行例を以下に示す．参考：<a href="images/soccer_field.png">サッカーコート画像</a>．射影変換に用いる4点は適当に選択してよい．</p>
+
+## 課題5(ex5.py)
+
+[ex5.mp4](images/ex5.mp4)中の人物(person)を抽出し，その領域を赤枠で元の動画に描画せよ．実行例を以下に示す．
+
+<video src="images/ex5_out.mp4" controls="true" width="600"></video>
+
+## 課題6a(ex6a.py)
+
+[ex4-25.jpg](images/ex4-25.jpg)を俯瞰画像に射影変換（参考：[研究ハンドブック](https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html)）せよ．実行例を以下に示す．参考：[サッカーコート画像](images/soccer_field.png)．射影変換に用いる4点は適当に選択してよい．
+
 <img src="images/ex6_out.jpg" width="600">
-<h2 id="%E8%AA%B2%E9%A1%8C6bex6bpy">課題6b(ex6b.py)</h2>
-<p><a href="images/ex4-25.jpg">ex4-25.jpg</a>からサッカーコート内の人物(person)を抽出し，射影変換を用いてその位置を<a href="images/soccer_field.png">サッカーコート画像</a>に描画せよ．実行例を以下に示す．射影変換に用いる4点は適当に選択してよい．</p>
-<img src="images/ex6b_out.jpg" width="600">
+
+## 課題6b(ex6b.py)
+
+[ex4-25.jpg](images/ex4-25.jpg)からサッカーコート内の人物(person)を抽出し，射影変換を用いてその位置を[サッカーコート画像](images/soccer_field.png)に描画せよ．実行例を以下に示す．射影変換に用いる4点は適当に選択してよい．
+
+<img src="images/ex6b_out.jpg" width="600"> -->
 <!-- ## 課題4(ex4.py)
 
 課題3で抽出した領域のうち，面積最大のもののみを赤枠で元の画像に描画せよ． -->

@@ -2,7 +2,7 @@
 
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
-# 領域実習A(2026年度)
+# 領域実習B(2025年度)
 
 [200字作文の書き方](200字作文.html)
 
@@ -14,11 +14,11 @@
 
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
-<!-- [領域実習A(2025年度)](https://cs.kwansei.ac.jp/~kitamura/lecture/RyoikiJisshu/index25A.html) -->
+[領域実習A(2025年度)](https://cs.kwansei.ac.jp/~kitamura/lecture/RyoikiJisshu/index25A.html)
 
 ***
 
-<!-- ## 課題1(ex1.py)
+## 課題1(ex1.py)
 
 [ex1.jpg](images/ex1.jpg)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．
 
@@ -77,6 +77,10 @@
 
 <video src="images/ex3d_skeleton.mp4" controls="true" width="300"></video>
 
+<!-- ## 課題2(ex2.py)
+
+Left-shoulder, Right-shoulder, Left-hip, Right-hipの4つの座標の平均値を求め，ex1で求めた画像上に描画せよ． -->
+
 ## 課題4(ex4.py)
 
 [ex4-25.jpg](images/ex4-25.jpg)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．実行例を以下に示す．
@@ -99,7 +103,7 @@
 
 [ex4-25.jpg](images/ex4-25.jpg)からサッカーコート内の人物(person)を抽出し，射影変換を用いてその位置を[サッカーコート画像](images/soccer_field.png)に描画せよ．実行例を以下に示す．射影変換に用いる4点は適当に選択してよい．
 
-<img src="images/ex6b_out.jpg" width="600"> -->
+<img src="images/ex6b_out.jpg" width="600">
 
 <!-- ## 課題4(ex4.py)
 
