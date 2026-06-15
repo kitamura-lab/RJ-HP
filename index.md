@@ -10,7 +10,9 @@
 
 [YOLOマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/YOLO.html)
 
-[OpenCVマニュアル](https://github.com/kitamura-lab/OpenCV)
+[OpenCVマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/OpenCV.html)
+
+[OpenCVマニュアル(AI版)](https://github.com/kitamura-lab/OpenCV)
 
 [GitHubマニュアル](https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html)
 
@@ -25,6 +27,14 @@
 ## 課題2(ex2.py)
 
 [ex2-26.png](images/ex2-26.png)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．
+
+## 課題3(ex3.py)
+
+[ex1-26.png](images/ex1-26.png)中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
+
+## 課題4(ex4.py)
+
+[ex2-26.png](images/ex2-26.png)中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
 
 <!-- ## 課題1(ex1.py)
 
