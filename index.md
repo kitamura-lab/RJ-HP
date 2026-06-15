@@ -3,6 +3,7 @@
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
 # 領域実習A(2026年度)
+Last updated at 2026/06/15 15:54:13
 
 [200字作文の書き方](200字作文.html)
 
@@ -161,8 +162,4 @@
 
 
 ***
-<address>
-<script>
-document.write("Last updated: " + document.lastModified);
-</script> <br>
-ykitamura@kwansei.ac.jp </address>
+<address>ykitamura@kwansei.ac.jp</address>
