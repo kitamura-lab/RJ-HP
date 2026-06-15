@@ -38,7 +38,7 @@
 
 ## 課題5(ex5.py)
 
-[ex5-26.mp4](images/ex5-26.mp4)中の青いヘルメットを抽出し，その領域を赤枠で元の動画に描画せよ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
+[ex5-26.mp4](images/ex5-26.MP4)中の青いヘルメットを抽出し，その領域を赤枠で元の動画に描画せよ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
 
 <!-- ## 課題1(ex1.py)
 
