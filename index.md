@@ -3,7 +3,7 @@
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
 # 領域実習A(2026年度)
-Last updated at 2026/06/25 09:55:20
+Last updated at 2026/07/01 16:27:04
 
 [200字作文の書き方](200字作文.html)
 
@@ -48,6 +48,10 @@ Last updated at 2026/06/25 09:55:20
 ## 課題7(ex7.py)
 
 ex6.pyを改良し，赤枠のヘルメットが3個以上ある場合はTEAM MOVING，そうでない場合はTEAM STATIONARYの文字列を画面の右上に表示しなさい．
+
+## 課題8(ex8.py)
+
+ex7.pyを改良し，スナップしたフレームを求めなさい．スナップはTEAM STATIONARYが１秒（30フレーム）以上継続し，TEAM MOVINGになったフレームとする．
 
 <!-- ## 課題1(ex1.py)
 
