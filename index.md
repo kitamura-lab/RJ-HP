@@ -3,7 +3,7 @@
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
 # 領域実習A(2026年度)
-Last updated at 2026/07/01 16:27:04
+Last updated at 2026/07/02 10:15:41
 
 [200字作文の書き方](200字作文.html)
 
@@ -52,6 +52,14 @@ ex6.pyを改良し，赤枠のヘルメットが3個以上ある場合はTEAM MO
 ## 課題8(ex8.py)
 
 ex7.pyを改良し，スナップしたフレームを求めなさい．スナップはTEAM STATIONARYが１秒（30フレーム）以上継続し，TEAM MOVINGになったフレームとする．
+
+## 課題9(ex9.py)
+
+ex8.pyと同様の処理を別角度から撮影した[ex9-26.mp4](images/ex9-26.MP4)に対して行い，スナップしたフレームを求めなさい．
+
+## 課題10(ex10.py)
+
+[ex5-26.mp4](images/ex5-26.MP4)と[ex9-26.mp4](images/ex9-26.MP4)において，スナップしたフレーム番号の差を求めなさい．適当にパラメータを調整し，その差が真の値に近づくようにしなさい．動画の表示や保存をする必要はない．
 
 <!-- ## 課題1(ex1.py)
 
