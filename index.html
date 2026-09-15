@@ -367,8 +367,8 @@ code {
   </script>
 <link rel="stylesheet" href="/~kitamura/md_preview1.css" type="text/css">
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/index.html">トップ</a> &gt; <a href="https://cs.kwansei.ac.jp/~kitamura/courses.html">講義</a> &gt; 領域実習</p>
-<h1 id="領域実習a2026年度">領域実習A(2026年度)</h1>
-<p>Last updated at 2026/07/02 10:19:16</p>
+<h1 id="領域実習b2026年度">領域実習B(2026年度)</h1>
+<p>Last updated at 2026/09/15 10:06:49</p>
 <p><a href="200%E5%AD%97%E4%BD%9C%E6%96%87.html">200字作文の書き方</a></p>
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/Handbook.html">研究ハンドブック</a></p>
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/YOLO.html">YOLOマニュアル</a></p>
@@ -377,26 +377,45 @@ code {
 <p><a href="https://cs.kwansei.ac.jp/~kitamura/KB/GitHub.html">GitHubマニュアル</a></p>
 <!-- [領域実習A(2025年度)](https://cs.kwansei.ac.jp/~kitamura/lecture/RyoikiJisshu/index25A.html) -->
 <hr>
-<h2 id="課題1ex1py">課題1(ex1.py)</h2>
-<p><a href="images/ex1-26.png">ex1-26.png</a>中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．</p>
-<h2 id="課題2ex2py">課題2(ex2.py)</h2>
-<p><a href="images/ex2-26.png">ex2-26.png</a>中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．</p>
-<h2 id="課題3ex3py">課題3(ex3.py)</h2>
-<p><a href="images/ex1-26.png">ex1-26.png</a>中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には<a href="https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg">best260408.pt</a>を用いてもよい．</p>
-<h2 id="課題4ex4py">課題4(ex4.py)</h2>
-<p><a href="images/ex2-26.png">ex2-26.png</a>中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には<a href="https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg">best260408.pt</a>を用いてもよい．</p>
-<h2 id="課題5ex5py">課題5(ex5.py)</h2>
-<p><a href="images/ex5-26.MP4">ex5-26.mp4</a>中の青いヘルメットを抽出し，その領域を赤枠で元の動画に描画せよ．またターミナルには30フレームごとに検出したヘルメット数を表示せよ．ヘルメット抽出には<a href="https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg">best260408.pt</a>を用いてもよい．</p>
-<h2 id="課題6ex6py">課題6(ex6.py)</h2>
-<p><a href="images/ex5-26.MP4">ex5-26.mp4</a>中の青いヘルメットを抽出し，その中心座標が前のフレームより4ピクセル以上移動している場合はその領域を赤枠で，そうでない場合は緑枠で，元の動画に描画せよ．ヘルメット抽出には<a href="https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg">best260408.pt</a>を用いてもよい．ヘルメットの移動量検出にはYOLOのtrack機能を用いてもよい．</p>
-<h2 id="課題7ex7py">課題7(ex7.py)</h2>
-<p>ex6.pyを改良し，赤枠のヘルメットが3個以上ある場合はTEAM MOVING，そうでない場合はTEAM STATIONARYの文字列を画面の右上に表示しなさい．</p>
-<h2 id="課題8ex8py">課題8(ex8.py)</h2>
-<p>ex7.pyを改良し，スナップしたフレームを求めなさい．スナップはTEAM STATIONARYが１秒（30フレーム）以上継続し，TEAM MOVINGになったフレームとする．</p>
-<h2 id="課題9ex9py">課題9(ex9.py)</h2>
-<p>ex8.pyと同様の処理を別角度から撮影した<a href="images/ex9-26.mp4">ex9-26.mp4</a>に対して行い，スナップしたフレームを求めなさい．</p>
-<h2 id="課題10ex10py">課題10(ex10.py)</h2>
-<p><a href="images/ex5-26.MP4">ex5-26.mp4</a>と<a href="images/ex9-26.mp4">ex9-26.mp4</a>において，スナップしたフレーム番号の差を求めなさい．適当にパラメータを調整し，その差が真の値に近づくようにしなさい．動画の表示や保存をする必要はない．</p>
+<!-- ## 課題1(ex1.py)
+
+[ex1-26.png](images/ex1-26.png)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．
+
+## 課題2(ex2.py)
+
+[ex2-26.png](images/ex2-26.png)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．
+
+## 課題3(ex3.py)
+
+[ex1-26.png](images/ex1-26.png)中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
+
+## 課題4(ex4.py)
+
+[ex2-26.png](images/ex2-26.png)中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
+
+## 課題5(ex5.py)
+
+[ex5-26.mp4](images/ex5-26.MP4)中の青いヘルメットを抽出し，その領域を赤枠で元の動画に描画せよ．またターミナルには30フレームごとに検出したヘルメット数を表示せよ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
+
+## 課題6(ex6.py)
+
+[ex5-26.mp4](images/ex5-26.MP4)中の青いヘルメットを抽出し，その中心座標が前のフレームより4ピクセル以上移動している場合はその領域を赤枠で，そうでない場合は緑枠で，元の動画に描画せよ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．ヘルメットの移動量検出にはYOLOのtrack機能を用いてもよい．
+
+## 課題7(ex7.py)
+
+ex6.pyを改良し，赤枠のヘルメットが3個以上ある場合はTEAM MOVING，そうでない場合はTEAM STATIONARYの文字列を画面の右上に表示しなさい．
+
+## 課題8(ex8.py)
+
+ex7.pyを改良し，スナップしたフレームを求めなさい．スナップはTEAM STATIONARYが１秒（30フレーム）以上継続し，TEAM MOVINGになったフレームとする．
+
+## 課題9(ex9.py)
+
+ex8.pyと同様の処理を別角度から撮影した[ex9-26.mp4](images/ex9-26.mp4)に対して行い，スナップしたフレームを求めなさい．
+
+## 課題10(ex10.py)
+
+[ex5-26.mp4](images/ex5-26.MP4)と[ex9-26.mp4](images/ex9-26.mp4)において，スナップしたフレーム番号の差を求めなさい．適当にパラメータを調整し，その差が真の値に近づくようにしなさい．動画の表示や保存をする必要はない． -->
 <!-- ## 課題1(ex1.py)
 
 [ex1.jpg](images/ex1.jpg)中の人物の骨格を抽出し，顔以外のキーポイントとボーンを元の画像に描画せよ．実行例を以下に示す．
