@@ -3,7 +3,7 @@
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
 # 領域実習B(2026年度)
-Last updated at 2026/09/15 10:06:49
+Last updated at 2026/11/09 08:25:31
 
 [200字作文の書き方](200字作文.html)
 
@@ -21,11 +21,11 @@ Last updated at 2026/09/15 10:06:49
 
 ***
 
-<!-- ## 課題1(ex1.py)
+## 課題1(ex1.py)
 
 [ex1-26.png](images/ex1-26.png)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．
 
-## 課題2(ex2.py)
+<!-- ## 課題2(ex2.py)
 
 [ex2-26.png](images/ex2-26.png)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．
 
