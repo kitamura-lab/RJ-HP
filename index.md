@@ -3,7 +3,7 @@
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
 # 領域実習B(2026年度)
-Last updated at 2026/11/09 08:25:31
+Last updated at 2026/11/18 07:54:25
 
 [200字作文の書き方](200字作文.html)
 
@@ -25,7 +25,7 @@ Last updated at 2026/11/09 08:25:31
 
 [ex1-26.png](images/ex1-26.png)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．
 
-<!-- ## 課題2(ex2.py)
+## 課題2(ex2.py)
 
 [ex2-26.png](images/ex2-26.png)中の人物(person)を抽出し，その領域を赤枠で元の画像に描画せよ．また抽出した人物の数を示せ．
 
@@ -33,7 +33,7 @@ Last updated at 2026/11/09 08:25:31
 
 [ex1-26.png](images/ex1-26.png)中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
 
-## 課題4(ex4.py)
+<!-- ## 課題4(ex4.py)
 
 [ex2-26.png](images/ex2-26.png)中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
 
