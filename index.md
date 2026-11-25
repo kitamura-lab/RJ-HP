@@ -3,7 +3,7 @@
 [トップ](https://cs.kwansei.ac.jp/~kitamura/index.html) > [講義](https://cs.kwansei.ac.jp/~kitamura/courses.html) > 領域実習
 
 # 領域実習B(2026年度)
-Last updated at 2026/11/18 07:54:25
+Last updated at 2026/11/25 15:17:12
 
 [200字作文の書き方](200字作文.html)
 
@@ -33,7 +33,7 @@ Last updated at 2026/11/18 07:54:25
 
 [ex1-26.png](images/ex1-26.png)中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
 
-<!-- ## 課題4(ex4.py)
+## 課題4(ex4.py)
 
 [ex2-26.png](images/ex2-26.png)中の青いヘルメットを抽出し，その領域を赤枠で元の画像に描画せよ．また抽出したヘルメットの数を示せ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
 
@@ -41,11 +41,11 @@ Last updated at 2026/11/18 07:54:25
 
 [ex5-26.mp4](images/ex5-26.MP4)中の青いヘルメットを抽出し，その領域を赤枠で元の動画に描画せよ．またターミナルには30フレームごとに検出したヘルメット数を表示せよ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．
 
-## 課題6(ex6.py)
+<!-- ## 課題6(ex6.py)
 
-[ex5-26.mp4](images/ex5-26.MP4)中の青いヘルメットを抽出し，その中心座標が前のフレームより4ピクセル以上移動している場合はその領域を赤枠で，そうでない場合は緑枠で，元の動画に描画せよ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．ヘルメットの移動量検出にはYOLOのtrack機能を用いてもよい．
+[ex5-26.mp4](images/ex5-26.MP4)中の青いヘルメットを抽出し，その中心座標が前のフレームより4ピクセル以上移動している場合はその領域を赤枠で，そうでない場合は緑枠で，元の動画に描画せよ．ヘルメット抽出には[best260408.pt](https://kwansei.box.com/s/a1e3ov17fqwhofxp7zq7udie39q70ybg)を用いてもよい．ヘルメットの移動量検出にはYOLOのtrack機能を用いてもよい． -->
 
-## 課題7(ex7.py)
+<!-- ## 課題7(ex7.py)
 
 ex6.pyを改良し，赤枠のヘルメットが3個以上ある場合はTEAM MOVING，そうでない場合はTEAM STATIONARYの文字列を画面の右上に表示しなさい．
 
